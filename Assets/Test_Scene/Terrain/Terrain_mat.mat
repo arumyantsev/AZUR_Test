@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Terrain_mat
   m_Shader: {fileID: 4800000, guid: 43e6bcd6d4dcb5d47a4d773fa61ba0db, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -101,8 +104,8 @@ Material:
         m_Scale: {x: 90, y: 90}
         m_Offset: {x: 0, y: 0}
     - _TextureR:
-        m_Texture: {fileID: 2800000, guid: 7a3d879fef0b57d4db0179a9d25a16c9, type: 3}
-        m_Scale: {x: 70, y: 70}
+        m_Texture: {fileID: 2800000, guid: c4a689f8b33e240499a1905f46cdc86a, type: 3}
+        m_Scale: {x: 33, y: 45}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -172,7 +175,7 @@ Material:
     - _Texture2RColor: {r: 0.7924528, g: 0.7737629, b: 0.7737629, a: 0}
     - _TextureBColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0}
     - _TextureGColor: {r: 0.9150943, g: 0.7587657, b: 0.6863207, a: 0}
-    - _TextureRColor: {r: 0.6319865, g: 0.69579, b: 0.764151, a: 1}
+    - _TextureRColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3816395120233817805
 MonoBehaviour:
